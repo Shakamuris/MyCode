@@ -1,0 +1,23 @@
+package javaByNaveen;
+
+import java.math.BigInteger;
+
+public class BigNumberActions {
+
+	public static void main(String[] args) {
+		
+		BigInteger n1 = new BigInteger("874374583725403258974305784325670894677925607785940273480");
+		BigInteger n2 = new BigInteger("232325134154125454442545242384325670894677925607785940273480");
+		
+		BigInteger sum = n1.add(n2);
+		
+		System.out.println(sum);
+		// 233199508737850857701519548168651341789355851215571880546960
+		
+		BigInteger multiply = n1.multiply(n2);
+		System.out.println(multiply);
+		// 203139192464961911414931394612383488883862231571224037722056100967182296388689817173321608705787052118197817191310400
+		
+	}
+
+}
