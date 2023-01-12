@@ -15,6 +15,7 @@ public class RemoveJunk {
 		str=str.replaceAll("[^a-zA-Z0-9]", "");
 		
 		System.out.println(str);
+		s.close();
 
 	}
 
