@@ -1,4 +1,4 @@
-package javaByNaveen;
+package javaPractice;
 
 import java.util.HashMap;
 import java.util.HashSet;
