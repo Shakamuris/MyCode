@@ -1,4 +1,4 @@
-package javaPractice;
+package toBeDeleted;
 
 import java.util.Scanner;
 
